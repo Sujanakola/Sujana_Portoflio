@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/index.html#hero -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio</title>
+        <link href="./Portfolio_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Portfolio_files/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">    
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html#">Sujana Kola</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="http://127.0.0.1:5500/index.html#">My Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="http://127.0.0.1:5500/index.html#">My Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="http://127.0.0.1:5500/index.html#">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         
+
+          <main class="container mt-3">
+              <section id="hero" class="d-flex justify-content-sm-center justify-content-sm-evenly align-items-center flex-column-reverse gap-3 flex-md-row">
+                  <!--Hero-->
+                  <div class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start">
+                      <h4>Hi!👋</h4>
+                      <h1>I'm Sujana Kola</h1>
+                      <p>A Front-end web developer!</p>
+                      <p>Design Enthusiast</p>
+                      <button class="btn btn-info btn-sm">My cool resume 😎</button>
+                  </div>                  
+                  <div class="d-md-none w-50 w-50">
+                      <img src="./Portfolio_files/WhatsApp Image 2021-05-04 at 6.08.02 PM (2).jpeg" alt="sujana kola" class="w-100 h-100 rounded-circle shadow">
+                  </div>
+                  <div class="d-none d-md-block w-25 h-25">                      
+                    <img src="./Portfolio_files/WhatsApp Image 2021-05-04 at 6.08.02 PM (2).jpeg" alt="sujana kola" class="w-100 h-100 rounded-circle shadow">
+                  </div>
+              </section>
+              <section>
+                <!--My Skills-->
+                <h1 class="text-white">My Skill Set</h1>
+                <div>
+                    <i class="fab fa-html5"></i>
+                </div>
+            </section>
+            <section>
+                <!--My works-->
+            </section>
+            <section>
+                <!--Contact Me-->
+            </section>
+        
+
+        
+
+        
+
+        
+
+          </main>
+
+        <script src="./Portfolio_files/bootstrap.bundle.min.js.download" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
